@@ -1,5 +1,5 @@
 var TaskList = require('./routes/tasklist');
-var taskList = new TaskList(process.env.CUSTOMCONNSTR_MONGOLAB_URI);
+var taskList = new TaskList(process.env.CUSTOMCONNSTR_MONGODB_URI);
 //var taskList = new TaskList('localhost:27017');
 var express = require('express');
 var path = require('path');
